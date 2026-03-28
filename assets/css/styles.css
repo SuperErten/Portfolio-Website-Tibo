@@ -348,6 +348,10 @@ img {
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
+  /* Verwijderen van button rand bij button*/
+  border: none;        
+  outline: none;       
+  cursor: pointer; 
 }
 
 .button:hover {
@@ -387,6 +391,11 @@ img {
 .button--link:hover {
   background-color: transparent;
   color: var(--first-color-alt);
+}
+
+.button:focus {
+  outline: 2px solid var(--first-color-alt);
+  outline-offset: 2px;
 }
 
 /*==================== ABOUT ====================*/
