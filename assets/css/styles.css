@@ -348,10 +348,12 @@ img {
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
-  /* Verwijderen van button rand bij button*/
+  /* Verwijderen van button rand bij button en ander letter type*/
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
   border: none;        
   outline: none;       
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .button:hover {
