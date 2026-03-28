@@ -562,9 +562,9 @@ img {
 
 /*==================== QUALIFICATION ====================*/
 .qualification__tabs {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: var(--mb-2);
 }
 
 .qualification__button {
