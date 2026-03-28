@@ -1,3 +1,7 @@
+<!--==================== 
+    Templete by: Bedimcode. All right reserved
+    https://github.com/bedimcode
+====================-->
 <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -5,82 +9,691 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
         
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="">
+        <!--==================== SWIPER CSS====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 
-        <title>Responsive Portfolio Website</title>
+        <!--==================== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Portfolio Website Tibo</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
     </head>
     <body>
+
+        <!--==================== SVG ICONS ====================-->
+        <svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+            <symbol id="icon-language" viewBox="0 0 48 48">
+                <path d="M4 25a1 1 0 0 1-1-1V5a2.002 2.002 0 0 1 2-2h18a2.002 2.002 0 0 1 2 2v14a2.002 2.002 0 0 1-2 2H8.414l-3.707 3.707A.999.999 0 0 1 4 25zM23 4.998 5 5v16.586l2.293-2.293A1 1 0 0 1 8 19h15zM44 45a.999.999 0 0 1-.707-.293L39.586 41H25a2.002 2.002 0 0 1-2-2V25a2.002 2.002 0 0 1 2-2h18a2.002 2.002 0 0 1 2 2v19a1 1 0 0 1-1 1zM25 25v14h15a1 1 0 0 1 .707.293L43 41.586V25z" fill="currentColor"></path>
+                <path d="M10.998 17a1 1 0 0 1-.14-1.99 6.125 6.125 0 0 0 3.435-1.717A6.057 6.057 0 0 0 15.73 11H11a1 1 0 0 1 0-2h6a1 1 0 0 1 .99 1.141 8.07 8.07 0 0 1-6.848 6.849 1.008 1.008 0 0 1-.143.01Z" fill="currentColor"></path>
+                <path d="M14 11a1 1 0 0 1-1-1V8a1 1 0 0 1 2 0v2a1 1 0 0 1-1 1zm4.001 6q-.039 0-.08-.003a7.522 7.522 0 0 1-5.764-3.459 1 1 0 0 1 1.686-1.076 5.516 5.516 0 0 0 4.235 2.54A1 1 0 0 1 18.001 17zm11.998 20a1 1 0 0 1-.893-1.447l4-8a1 1 0 0 1 1.788.894l-4 8A1 1 0 0 1 30 37z" fill="currentColor"></path>
+                <path d="M38.001 37a1 1 0 0 1-.895-.553l-4-8a1 1 0 0 1 1.788-.894l4 8A1 1 0 0 1 38.002 37Z" fill="currentColor"></path>
+                <path d="M37.483 33.967h-6.966a1 1 0 0 1 0-2h6.966a1 1 0 0 1 0 2zM10 27a1 1 0 0 1-.707-1.707l2-2a1 1 0 0 1 1.414 1.414l-2 2A.997.997 0 0 1 10 27z" fill="currentColor"></path>
+                <path d="M14 27a.997.997 0 0 1-.707-.293l-2-2a1 1 0 0 1 1.414-1.414l2 2A1 1 0 0 1 14 27Z" fill="currentColor"></path>
+                <path d="M20 35h-7a2.002 2.002 0 0 1-2-2v-9a1 1 0 0 1 2 0v9h7a1 1 0 0 1 0 2zm16-14a1 1 0 0 1-.707-1.707l2-2a1 1 0 0 1 1.414 1.414l-2 2A.997.997 0 0 1 36 21z" fill="currentColor"></path>
+                <path d="M36 21a.997.997 0 0 1-.707-.293l-2-2a1 1 0 0 1 1.414-1.414l2 2A1 1 0 0 1 36 21Z" fill="currentColor"></path>
+                <path d="M36 21a1 1 0 0 1-1-1v-9h-7a1 1 0 0 1 0-2h7a2.002 2.002 0 0 1 2 2v9a1 1 0 0 1-1 1Z" fill="currentColor"></path>
+            </symbol>
+        </svg>
+
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
-            
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Tibo</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Over
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Softwarekennis
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact Mij
+                            </a>
+                        </li>
+
+                    </ul>
+                    
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
         </header>
 
         <!--==================== MAIN ====================-->
         <main class="main">
             <!--==================== HOME ====================-->
             <section class="home section" id="home">
-                
+                <div class="home__container container grid">
+                    <div class="home__content grid">
+                        <div class="home__social">
+                            <a href="https://linkedin.com/in/tibo-vandermeulen-45aa79177" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                        </div>
+    
+                        <div class="home__img">
+                            <svg class="home__blob" viewBox="0 0 200 187">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+
+                                    <!--==================== 
+                                        Insert your image in the Img folder and Change your image |
+                                        Center your image with X: horizontal, Y: vertical 
+                                    ====================-->
+                                    <image class="home__blob-img" x="12" y="18" href="assets/img/perfil.png"/>
+                                </g>
+                            </svg>
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">Hi, I'm Tibo</h1>
+                            <h3 class="home__subtitle">Gǎlbenelegroene Expressieve Kwikstaart</h3>
+                            <p class="home__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <a href="#contact" class="button button--flex">
+                                Contact Me <i class="uil uil-message button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    
+                    <div class="home__scroll">
+                        <a href="#about" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scroll-name">Scroll down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
             </section>
 
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
-                
-            </section>
+                <h2 class="section__title">Over Mij</h2>
+                <span class="section__subtitle">Introductie</span>
 
-            <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+                <div class="about__container container grid">
+                    <img src="assets/img/about.jpg" alt="" class="about__img">
 
+                    <div class="about__data">
+                        <p class="about__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        </p>
+
+                        <div class="about__info">
+                            <div>
+                                <span class="about__info-title">03+</span>
+                                <span class="about__info-name">Jaren <br> ervaring</span>
+                            </div>
+
+                        <div class="about__buttons">
+                            <!--==================== Change your CV ====================-->
+                            <a download="" href="assets/pdf/CV-TiboVandermeulen.pdf" class="button button--flex">
+                                Download CV <i class="uil uil-download-alt button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
+                <h2 class="section__title">Kwalificaties</h2>
+                <span class="section__subtitle">Mijn persoonlijke reis</span>
 
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#work">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Werk
+                        </div>
+
+                        <div class="qualification__button button--flex" data-target="#education">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Studies
+                        </div>
+
+                        <div class="qualification__button button--flex " data-target="#volunteerwork">
+                            <i class="uil uil-user-md qualification__icon"></i>
+                            vrijwilligerswerk
+                        </div>                           
+                    </div>       
+                </div>
+
+                    <div class="qualification__sections">
+
+                        <!--=============== QUALIFICATION CONTENT 1 ===============-->
+                        <div class="qualification__content qualification__active" data-content id="work">
+                            <!--=============== QUALIFICATION 1 ===============-->
+                            <div class="qualification__data" >
+                                <div>
+                                    <h3 class="qualification__title">Automation Specialist</h3>
+                                    <span class="qualification__subtitle">Volvo Cars</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        feb 2023 - mrt 2024
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <!--=============== QUALIFICATION 2 ===============-->
+                            <div class="qualification__data">
+                                <div></div>
+    
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Maintence Specialist Launch</h3>
+                                    <span class="qualification__subtitle">Volvo Cars</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        mrt 2024 - heden
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <!--=============== QUALIFICATION CONTENT 2 ===============-->
+                        <div class="qualification__content" data-content id="education">
+                            <!--=============== QUALIFICATION 1 ===============-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Biotechnische Wetenschappen</h3>
+                                    <span class="qualification__subtitle">KTA Melle</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2012 - 2015
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <!--=============== QUALIFICATION 2 ===============-->
+                            <div class="qualification__data">                                 
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                          
+                                <div>
+                                    <h3 class="qualification__title">Chemie (A2)</h3>
+                                    <span class="qualification__subtitle">KTA Melle</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2015 - 2017
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!--=============== QUALIFICATION 3 ===============-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Professionele bachelor elektromechanica: Automatisatie</h3>
+                                    <span class="qualification__subtitle">HOGENT</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019 - 2026
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--=============== QUALIFICATION CONTENT 3 ===============-->
+                        <div class="qualification__content" data-content id="volunteerwork">
+                            <!--=============== QUALIFICATION 1 ===============-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Leiding</h3>
+                                    <span class="qualification__subtitle">Scouts Sint-Bernadette, Sint-Amandsberg</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2017 - 2021
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            
+                            <!--=============== QUALIFICATION 2 ===============-->
+                            <div class="qualification__data">                                 
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                          
+                                <div>
+                                    <h3 class="qualification__title">Verantwoordelijke ICT</h3>
+                                    <span class="qualification__subtitle">Scouts Sint-Bernadette, Sint-Amandsberg</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018 - heden
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <!--=============== QUALIFICATION 3 ===============-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Coördinator verhuur</h3>
+                                    <span class="qualification__subtitle">VZW S&G Sint-Bernadette Gent</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2019 - heden
+                                    </div>
+                                </div>
+    
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+    
+                            <!--=============== QUALIFICATION 4 ===============-->
+                            <div class="qualification__data">
+                                <div></div>
+                                     
+                                <div class="qualification__time">
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Penningmeester</h3>
+                                    <span class="qualification__subtitle">VZW S&G Sint-Bernadette Gent</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020 - heden
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
             </section>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">Mijn Competenties</span>
+
+                <div class="skills__container container grid">
+                    <div>
+                        <!--=============== SKILLS 1 ===============-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-dropbox skills__icon"></i>
+    
+                                <div>
+                                    <h1 class="skills__title">Out of de box</h1>
+                                    <span class="skills__subtitle"></span>
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!--=============== SKILLS 2 ===============-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-book-open skills__icon"></i>
+    
+                                <div>
+                                    <h1 class="skills__title">Leergierig</h1>
+                                    <span class="skills__subtitle"></span>
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div>
+                        <!--=============== SKILLS 3 ===============-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-comments skills__icon"></i>
+    
+                                <div>
+                                    <h1 class="skills__title">Sociaal</h1>
+                                    <span class="skills__subtitle"></span>
+                                </div>
+    
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+    
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+
+                </div>
             </section>
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                
+                <h2 class="section__title">Softwarekennis</h2>
+                <span class="section__subtitle"></span>
+
+                <div class="portfolio__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--=============== PORTFOLIO 1 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">SIEMENS TIA PORTAL</h3>
+                                <p class="portfolio__description">TIA SERV1, SERV2, SAFETY, G120 ect gevolgd by SITRAIN SIEMENS. Ook kennis van Codesys, SATTLINE </p>
+                            </div>
+                        </div>
+    
+                        <!--=============== PORTFOLIO 2 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">ABB Robotstudio</h3>
+                                <p class="portfolio__description">Programmeren, aanpassen van RAPID code. Opleidingen gevolgd bij ABB BeNeLux: ABB IRC5(ngac) & Omnicore (en HW), Savemove, FuPA: Spotwelding, IDPF etc</p>
+                            </div>
+                        </div>
+    
+                        <!--=============== PORTFOLIO 3 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">IBM Maximo</h3>
+                                <p class="portfolio__description">Voor het ingeven van storingen (workorders) maar ook voor het aanmaken van locaties, assets en items. </p>
+                            </div>
+                        </div>
+
+                        <!--=============== PORTFOLIO 4 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio4.jpg" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">EPLAN</h3>
+                                <p class="portfolio__description">Tekenen, lezen en aanpassen van eletraiche schema's</p>
+                            </div>
+                        </div>
+
+                        <!--=============== PORTFOLIO 5 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio5.jpg" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">SIEMENS Teamcenter</h3>
+                                <p class="portfolio__description">Centralisatie van product en processdata. Bekijken van 3D assests</p>
+                            </div>
+                        </div>
+
+                        <!--=============== PORTFOLIO 6 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio6.jpg" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Google Workspace</h3>
+                                <p class="portfolio__description">Als gebruiker en als administrator omvat alle buisness tools van Google</p>
+                            </div>
+                        </div>
+
+                        <!--=============== PORTFOLIO 7 ===============-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio7.jpg" alt="" class="portfolio__img">
+    
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Office 365</h3>
+                                <p class="portfolio__description"></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
             </section>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+            <!--==================== SERVICES ====================-->
+            <section class="services section" id="services">
+                <h2 class="section__title">Talenkennis</h2>
+                <span class="section__subtitle"></span>
 
+                <div class="services__container container grid">
+                    <!--=============== SERVICES 1 ===============-->
+                    <div class="services__content">
+                        <div>
+                            <svg class="services__icon" width="96" height="96" aria-hidden="true">
+                                <use href="#icon-language"></use>
+                            </svg>
+                            <h3 class="services__title">Nerdelands <br> C1 (Moedertaal)</h3>
+                        </div>
+                    </div>
+
+                    <!--=============== SERVICES 2 ===============-->
+                    <div class="services__content">
+                        <div>
+                            <svg class="services__icon" width="96" height="96" aria-hidden="true">
+                                <use href="#icon-language"></use>
+                            </svg>
+                            <h3 class="services__title">Engels <br> B2</h3>
+                        </div>
+                    </div>
+
+                    <!--=============== SERVICES 3 ===============-->
+                    <div class="services__content">
+                        <div> 
+                            <svg class="services__icon" width="96" height="96" aria-hidden="true">
+                                <use href="#icon-language"></use>
+                            </svg>
+                            <h3 class="services__title">Frans <br> A2</h3>
+                        </div>
+                    </div>
+
+                </div>
             </section>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
-            </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section__title">Contact</h2>
+                <span class="section__subtitle">Neem contact met mij op</span>
+
+                <div class="contact__container container grid">
+                    <div>
+                    <!-- <div class="contact__information">
+                            <i class="uil uil-phone contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Bel Mij</h3>
+                                <span class="contact__subtitle"></span>
+                            </div>
+                        </div> -->
+
+                        <div class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">work@tibo.gent</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Locatie</h3>
+                                <span class="contact__subtitle">Gent, België</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Naam</label>
+                                <input type="text" id="name" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" id="email" class="contact__input">
+                            </div>
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Title</label>
+                            <input type="text" id="title" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Bericht</label>
+                            <textarea name="" id="message" cols="0" rows="7" class="contact__input"></textarea>
+                        </div>
+                        
+                        <div>
+                            <button type="button" class="button button--flex" onclick="sendMail()">
+                                Verstuur Bericht
+                                <i class="uil uil-message button__icon"></i>
+                        </div>
+                    </form>
+                </div>
 
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
-         
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">Tibo</h1>
+                        <span class="footer__subtitle"></span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">Over</a>
+                        </li>
+                        <li>
+                            <a href="#skills" class="footer__link">Skills</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact Mij</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="" target="_blank" class="footer__social">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                        <a href="" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169; All right reserved</p>
+            </div>
         </footer>
-        
-        <!--==================== SCROLL TOP ====================-->
-        
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrollup" id="scroll-top">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/main.js"></script> 
+
     </body>
 </html>
